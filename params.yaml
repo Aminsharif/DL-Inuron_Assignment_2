@@ -1,0 +1,14 @@
+AUGMENTATION: True
+IMAGE_SIZE: [32, 32, 3] # as per VGG 16 model
+BATCH_SIZE: 64
+INCLUDE_TOP: False
+EPOCHS: 50
+CLASSES: 100
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
+ROTATION_RANGE: 15
+WIDTH_SHIFT_RANGE: 0.1
+HEIGHT_SHIFT_RANGE: 0.1
+HORIZONTAL_FLIP: True
+
+class_names: ["apple", "aquarium_fish", "baby", "bear", "beaver", "bed", "bee", "beetle", "bicycle", "bottle","bowl", "boy", "bridge", "bus", "butterfly", "camel", "can", "castle", "caterpillar", "cattle","chair", "chimpanzee", "clock", "cloud", "cockroach", "couch", "crab", "crocodile", "cup", "dinosaur","dolphin", "elephant", "flatfish", "forest", "fox", "girl", "hamster", "house", "kangaroo", "keyboard","lamp", "lawn_mower", "leopard", "lion", "lizard", "lobster", "man", "maple_tree", "motorcycle", "mountain","mouse", "mushroom", "oak_tree", "orange", "orchid", "otter", "palm_tree", "pear", "pickup_truck", "pine_tree","plain", "plate", "poppy", "porcupine", "possum", "rabbit", "raccoon", "ray", "road", "rocket","rose", "sea", "seal", "shark", "shrew", "skunk", "skyscraper", "snail", "snake", "spider","squirrel", "streetcar", "sunflower", "sweet_pepper", "table", "tank", "telephone", "television", "tiger", "tractor","train", "trout", "tulip", "turtle", "wardrobe", "whale", "willow_tree", "wolf", "woman", "worm" ]
